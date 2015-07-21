@@ -90,4 +90,5 @@ Workflows
 3. Fetch image and meta data of first results
 4. Extract image and text based features
 5. Use trained classifier to predict class
-6. Filter against user's class selection
+6. Store results in DBpedia
+7. Filter against user's class selection
