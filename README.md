@@ -79,7 +79,7 @@ Workflows
 
 ### Training
 
-1. Proprocess data set
+1. Preprocess data set
 2. Extract image and text based features
 3. Train classifier
 
