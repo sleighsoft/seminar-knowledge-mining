@@ -83,7 +83,7 @@ Workflows
 2. Extract image and text based features
 3. Train classifier
 
-### Suggesting article images
+### Image classification
 
 1. Get user search term
 2. Query DBpedia for related images based on description
@@ -91,4 +91,17 @@ Workflows
 4. Extract image and text based features
 5. Use trained classifier to predict class
 6. Store results in DBpedia
-7. Filter against user's class selection
+
+### Usage
+
+`-h` can be passed as a parameter to get a comprehensive list of parameters for all the classes listed below.
+
+`fetch_[source].py` files can be used to download images for a test/training set from [source] to test the classifier.
+
+`extraction.py` can be used to extract textual and visual features from images.
+
+`classifier.py` can be used to classify images.
+
+`performance.py` trains a different classifiers and measures their individual performance.
+
+`evaluation.py` can be used to measure the performance of individual features.
